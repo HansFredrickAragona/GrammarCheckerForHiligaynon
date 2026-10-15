@@ -1,0 +1,22 @@
+word,pos_symbol,pos_word,meaning,sentiment score,sentiment,RESPONDENT BASIS,Respondent 1,Respondent 2,Respondent 3,Respondent 4,Respondent 5,Respondent 6,Respondent 7,Respondent 8,Respondent 9,Respondent 10,Respondent 11,Respondent 12,Respondent 13,Respondent 14,Respondent 15,Respondent 16,Respondent 17,Respondent 18,Respondent 19,Respondent 20,MODE,Comparison
+áng,RP,particle,definite noun marker.,0.273,Positive,1,0,0,1,0,0,1,0,0,0,1,1,0,0,-1,0,0,1,1,1,1,0,False
+bahúl,JJ,adjective,"coarse, loose or rough texture.",-0.318,Negative,-1,0,-1,0,0,0,-1,0,0,1,0,-1,0,-1,-1,0,0,0,-1,-1,-1,0,False
+bakasyón,NN,noun,"vacation, leisure trip.",0.0,Neutral,0,1,1,0,0,0,-1,0,0,1,1,0,1,1,1,1,0,1,1,0,0,1,False
+bantay,NN,noun,guard synonym: gwardya,0.0,Neutral,0,0,0,1,1,1,1,1,0,0,0,1,0,1,0,0,1,1,1,1,1,1,False
+barato,JJ,adjective,cheap ; inexpensive antonym: mahal,0.0,Neutral,0,-1,0,-1,0,-1,0,-1,1,1,0,-1,-1,1,1,-1,-1,0,0,0,0,-1,False
+bíhag,NN,noun,"captive, hostage.",0.0,Neutral,0,-1,0,-1,-1,-1,0,0,0,0,-1,-1,-1,1,0,0,1,1,0,-1,-1,-1,False
+bilanggo,VB,verb,"imprison , incarcerate , confine",0.0,Neutral,0,-1,-1,1,-1,-1,-1,0,1,0,1,1,-1,1,-1,-1,-1,1,0,-1,1,-1,False
+bulak,VB,verb,"blossom , flower",0.0,Neutral,0,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1,1,0,0,1,0,1,False
+búnyag,VB,verb,"to sprinkle, to water plants‚ to baptize.",0.0,Neutral,0,1,1,1,-1,0,-1,-1,0,1,1,1,0,0,1,1,0,1,0,0,0,1,False
+burus,NN,noun,blister,0.0,Neutral,0,1,0,1,-1,-1,-1,0,1,-1,-1,0,-1,-1,0,-1,-1,1,-1,0,-1,-1,False
+dalo,VB,verb,"to caress , to fondle",0.0,Neutral,0,0,1,1,1,-1,0,-1,-1,0,1,1,1,0,1,1,1,-1,0,1,0,1,False
+gub-on,VB,verb,disrupt,0.0,Neutral,0,-1,0,0,-1,-1,0,-1,-1,-1,-1,0,-1,-1,0,0,-1,-1,0,0,0,-1,False
+hangánhangán,RB,adverb,"easily, lazily, taking it easy.",0.649,Positive,1,1,1,1,1,1,1,0,0,0,0,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,False
+hímus,VB,verb,"to arrange, to put away in an orderly manner.",0.0,Neutral,0,1,1,1,1,0,-1,-1,1,1,0,1,1,1,0,0,1,1,0,0,0,1,False
+húrma,VB,verb,"to mold, to fit into a cast.",0.361,Positive,1,1,-1,-1,0,0,-1,0,-1,-1,-1,1,-1,1,1,0,-1,-1,0,1,1,-1,False
+íswag,VB,verb,"to move over, to extend, to move away, to make room.",0.178,Positive,1,1,0,0,0,0,-1,1,0,0,0,0,1,1,0,0,0,0,1,1,1,0,False
+mumho,NN,noun,fallen crumbs of cooked rice on the floor or table,-0.361,Negative,-1,0,0,0,-1,0,0,-1,0,0,0,0,-1,-1,1,1,-1,0,-1,-1,0,0,False
+puláw,VB,verb,"to stay awake so as to watch, to have a late night.",0.0,Neutral,0,0,0,0,-1,0,-1,-1,-1,0,-1,0,1,-1,0,-1,-1,-1,0,0,-1,-1,False
+sántus,NN,noun,saint.,0.0,Neutral,0,0,0,1,0,1,1,1,-1,0,1,1,1,1,0,0,1,0,1,0,1,1,False
+súpsup,VB,verb,"to sip in, to suck, to absorb.",-0.44,Negative,-1,0,0,-1,0,0,0,0,-1,-1,0,0,0,0,-1,0,0,0,0,1,-1,0,False
+tingála,VB,verb,"to wonder, to be astonished, to be surprised.",0.542,Positive,1,0,0,-1,-1,-1,-1,1,1,1,-1,0,-1,-1,-1,0,1,-1,1,1,1,-1,False
