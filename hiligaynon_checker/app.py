@@ -150,7 +150,11 @@ st.markdown(
         visibility: hidden;
     }
     [data-testid="stSidebar"][aria-expanded="false"]
-        [data-testid="stElementContainer"]:has(.rail-mark) + [data-testid="stElementContainer"] {
+        [data-testid="stElementContainer"]:has(.rail-mark-0) + [data-testid="stElementContainer"],
+    [data-testid="stSidebar"][aria-expanded="false"]
+        [data-testid="stElementContainer"]:has(.rail-mark-1) + [data-testid="stElementContainer"],
+    [data-testid="stSidebar"][aria-expanded="false"]
+        [data-testid="stElementContainer"]:has(.rail-mark-2) + [data-testid="stElementContainer"] {
         visibility: visible !important;
     }
     [data-testid="stSidebar"][aria-expanded="false"]
@@ -161,6 +165,7 @@ st.markdown(
         height: 40px !important;
         top: 72px !important;
         z-index: 1000001 !important;
+        visibility: visible !important;
     }
     [data-testid="stSidebar"][aria-expanded="false"]
         [data-testid="stElementContainer"]:has(.rail-mark-1) + [data-testid="stElementContainer"] [data-testid="stButton"] {
@@ -170,6 +175,7 @@ st.markdown(
         height: 40px !important;
         top: 120px !important;
         z-index: 1000001 !important;
+        visibility: visible !important;
     }
     [data-testid="stSidebar"][aria-expanded="false"]
         [data-testid="stElementContainer"]:has(.rail-mark-2) + [data-testid="stElementContainer"] [data-testid="stButton"] {
@@ -179,6 +185,7 @@ st.markdown(
         height: 40px !important;
         top: 168px !important;
         z-index: 1000001 !important;
+        visibility: visible !important;
     }
     [data-testid="stSidebar"][aria-expanded="false"] div[data-testid="stButton"] button {
         width: 40px !important;
