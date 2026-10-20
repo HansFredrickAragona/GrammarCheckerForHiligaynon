@@ -141,7 +141,7 @@ st.markdown(
         height: 100vh !important;
         transform: none !important;
         overflow: hidden !important;
-        z-index: 1 !important;
+        z-index: 1000000 !important;
         background: #f1f0eb !important;
         border-right: 1px solid var(--line);
         box-shadow: 1px 0 8px rgba(41,43,39,.1);
@@ -160,6 +160,7 @@ st.markdown(
         width: 40px !important;
         height: 40px !important;
         top: 72px !important;
+        z-index: 1000001 !important;
     }
     [data-testid="stSidebar"][aria-expanded="false"]
         [data-testid="stElementContainer"]:has(.rail-mark-1) + [data-testid="stElementContainer"] [data-testid="stButton"] {
@@ -168,6 +169,7 @@ st.markdown(
         width: 40px !important;
         height: 40px !important;
         top: 120px !important;
+        z-index: 1000001 !important;
     }
     [data-testid="stSidebar"][aria-expanded="false"]
         [data-testid="stElementContainer"]:has(.rail-mark-2) + [data-testid="stElementContainer"] [data-testid="stButton"] {
@@ -176,6 +178,7 @@ st.markdown(
         width: 40px !important;
         height: 40px !important;
         top: 168px !important;
+        z-index: 1000001 !important;
     }
     [data-testid="stSidebar"][aria-expanded="false"] div[data-testid="stButton"] button {
         width: 40px !important;
@@ -1043,7 +1046,6 @@ with check_tab:
 
 
 with build_tab:
-    render_section_banner("BUILD", "Choose a pattern and fill each slot with a word the grammar knows.")
     st.subheader("Build a sentence")
     st.caption("Choose a pattern, then fill each slot with a word the grammar knows.")
 
@@ -1073,7 +1075,6 @@ with build_tab:
 
 
 with words_tab:
-    render_section_banner("WORD BANK", "Browse grammar words as quick meaning cards, then open a full dictionary entry.")
     st.subheader("Explore words")
     mode = st.radio("Browse", ["Grammar word classes", "Explore all words"], horizontal=True, label_visibility="collapsed")
 
@@ -1156,7 +1157,6 @@ with words_tab:
 
 
 with dictionary_tab:
-    render_section_banner("DICTIONARY", "Look up Hiligaynon words or search English meanings across the local dictionaries.")
     st.subheader("Hiligaynon ↔ English dictionary")
     st.caption("Search in either direction. Entries combine the local lexicon with PinoyDictionary and Cecile Motus when available; accent marks are ignored.")
     st.radio(
