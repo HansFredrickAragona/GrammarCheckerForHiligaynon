@@ -519,6 +519,16 @@ if dark_mode:
             border-color: #3a6245 !important;
             color: #fff !important;
         }
+        [data-testid="stDialog"] { background: #171b18 !important; }
+        [data-testid="stDialog"] [data-testid="stMarkdownContainer"],
+        [data-testid="stDialog"] p,
+        [data-testid="stDialog"] label,
+        [data-testid="stDialog"] [data-testid="stCaptionContainer"] {
+            color: var(--ink) !important;
+        }
+        [data-testid="stDialog"] [data-testid="stCaptionContainer"] p {
+            color: var(--muted) !important;
+        }
         </style>
         """,
         unsafe_allow_html=True,
