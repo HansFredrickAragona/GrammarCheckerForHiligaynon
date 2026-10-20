@@ -530,7 +530,11 @@ if dark_mode:
         [data-testid="stDialog"] [data-testid="stMarkdownContainer"],
         [data-testid="stDialog"] p,
         [data-testid="stDialog"] label,
-        [data-testid="stDialog"] [data-testid="stCaptionContainer"] {
+        [data-testid="stDialog"] [data-testid="stCaptionContainer"],
+        [data-testid="stDialog"] strong,
+        [data-testid="stDialog"] em,
+        [data-testid="stDialog"] span,
+        [data-testid="stDialog"] div {
             color: var(--ink) !important;
         }
         [data-testid="stDialog"] [data-testid="stCaptionContainer"] p {
